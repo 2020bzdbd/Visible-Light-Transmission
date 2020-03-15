@@ -1,0 +1,16 @@
+﻿  源.cpp
+G:\Desktop\Program\C++\二维码识别\源.cpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+G:\Desktop\Program\C++\二维码识别\源.cpp(56,38): warning C4244: “+=”: 从“double”转换到“int”，可能丢失数据
+G:\Desktop\Program\C++\二维码识别\源.cpp(82,18): warning C4244: “初始化”: 从“__int64”转换到“int”，可能丢失数据
+G:\Desktop\Program\C++\二维码识别\源.cpp(83,14): warning C4244: “初始化”: 从“__int64”转换到“int”，可能丢失数据
+G:\Desktop\Program\C++\二维码识别\源.cpp(112,52): warning C4244: “参数”: 从“double”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=float
+          ]
+G:\Desktop\Program\C++\二维码识别\源.cpp(112,29): warning C4244: “参数”: 从“double”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=float
+          ]
+  二维码识别.vcxproj -> G:\Desktop\Program\C++\二维码识别\x64\Debug\二维码识别.exe
