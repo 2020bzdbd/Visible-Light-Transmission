@@ -19,7 +19,7 @@ string decode(Mat img) {
 		for (int row = 0; row < 24; row++) {
 			Point pos(row * 20, col * 20), center(10, 10), tr(120, 0);
 			Scalar color = img.at<uchar>(tr + pos + center);
-			if (color.val[0] < 150) {
+			if (color.val[0] < 100) {
 				code.push_back('1');
 			}
 			else code.push_back('0');
@@ -28,7 +28,7 @@ string decode(Mat img) {
 		for (int col = 24; col < 30; col++) {
 			Point pos(col * 20, row * 20), center(10, 10), tr(120, 120);
 			Scalar color = img.at<uchar>(tr + pos + center);
-			if (color.val[0] < 150) {
+			if (color.val[0] < 100) {
 				code.push_back('1');
 			}
 			else code.push_back('0');
@@ -38,7 +38,7 @@ string decode(Mat img) {
 		for (int row = 0; row < 6; row++) {
 			Point pos(row * 20, col * 20), center(10, 10), tr(0, 120);
 			Scalar color = img.at<uchar>(tr + pos + center);
-			if (color.val[0] < 150) {
+			if (color.val[0] < 100) {
 				code.push_back('1');
 			}
 			else code.push_back('0');
@@ -66,10 +66,10 @@ Mat handleImg(Mat& srcImg) {
 	Mat midImg = srcImg.clone();
 	//简单图像处理
 	cvtColor(midImg, midImg, CV_RGB2GRAY);	//灰度化
+	cvtColor(srcImg, srcImg, CV_RGB2GRAY);
 	for (int i = 0; i < 5; i++)
 		GaussianBlur(midImg, midImg, Size(3, 3), 0);			//滤波
 	threshold(midImg, midImg, 80, 255, THRESH_BINARY);	//二值化
-	srcImg = midImg;
 	return midImg;
 }
 
