@@ -1,0 +1,21 @@
+﻿  源final.cpp
+G:\Desktop\Program\C++\可见光信息传递\源final.cpp(250,38): warning C4244: “+=”: 从“double”转换到“int”，可能丢失数据
+G:\Desktop\Program\C++\可见光信息传递\源final.cpp(283,18): warning C4244: “初始化”: 从“__int64”转换到“int”，可能丢失数据
+G:\Desktop\Program\C++\可见光信息传递\源final.cpp(284,14): warning C4244: “初始化”: 从“__int64”转换到“int”，可能丢失数据
+G:\Desktop\Program\C++\可见光信息传递\源final.cpp(313,52): warning C4244: “参数”: 从“double”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=float
+          ]
+G:\Desktop\Program\C++\可见光信息传递\源final.cpp(313,29): warning C4244: “参数”: 从“double”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=float
+          ]
+G:\Desktop\Program\C++\可见光信息传递\源final.cpp(468,32): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+  正在生成代码
+  Previous IPDB not found, fall back to full compilation.
+G:\Desktop\Program\C++\可见光信息传递\源final.cpp(27): warning C4715: “Cxor”: 不是所有的控件路径都返回值
+  All 759 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  已完成代码的生成
+  可见光信息传递.vcxproj -> G:\Desktop\Program\C++\可见光信息传递\x64\Release\可见光信息传递.exe
