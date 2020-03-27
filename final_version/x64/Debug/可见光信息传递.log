@@ -1,0 +1,14 @@
+﻿  测试.cpp
+  自测.cpp
+G:\Desktop\Program\C++\可见光信息传递\自测.cpp(71,39): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+G:\Desktop\Program\C++\可见光信息传递\自测.cpp(92,20): warning C4474: printf_s: 格式字符串中传递的参数太多
+G:\Desktop\Program\C++\可见光信息传递\自测.cpp(92,20): message : 占位符和其参数预计 0 可变参数，但提供的却是 2 参数
+G:\Desktop\Program\C++\可见光信息传递\自测.cpp(95,21): warning C4474: printf_s: 格式字符串中传递的参数太多
+G:\Desktop\Program\C++\可见光信息传递\自测.cpp(95,21): message : 占位符和其参数预计 0 可变参数，但提供的却是 2 参数
+G:\Desktop\Program\C++\可见光信息传递\自测.cpp(98,21): warning C4474: printf_s: 格式字符串中传递的参数太多
+G:\Desktop\Program\C++\可见光信息传递\自测.cpp(98,21): message : 占位符和其参数预计 0 可变参数，但提供的却是 2 参数
+G:\Desktop\Program\C++\可见光信息传递\自测.cpp(123,36): warning C4267: “+=”: 从“size_t”转换到“int”，可能丢失数据
+G:\Desktop\Program\C++\可见光信息传递\自测.cpp(124,37): warning C4267: “+=”: 从“size_t”转换到“int”，可能丢失数据
+G:\Desktop\Program\C++\可见光信息传递\自测.cpp(125,37): warning C4267: “+=”: 从“size_t”转换到“int”，可能丢失数据
+  正在生成代码...
+  可见光信息传递.vcxproj -> G:\Desktop\Program\C++\可见光信息传递\x64\Debug\可见光信息传递.exe

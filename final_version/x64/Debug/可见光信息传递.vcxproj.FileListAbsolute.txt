@@ -1,0 +1,2 @@
+G:\Desktop\Program\C++\可见光信息传递\x64\Debug\可见光信息传递.exe
+G:\Desktop\Program\C++\可见光信息传递\x64\Debug\可见光信息传递.pdb
